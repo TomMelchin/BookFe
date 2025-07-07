@@ -514,8 +514,12 @@ pre {
   white-space: pre-wrap;
 }
 
-/* Tablet Layout */
+/* Phone Layout */
 @media screen and (max-width: 767px) {
+  .bild img {
+    margin-top: 1.5rem;
+  }
+  
   header h1 {
     margin: 0;
   }
