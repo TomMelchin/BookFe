@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title> Kontakt - Book Fé</title>
+</head>
+
+<body>
+    <header class="ausgefahren">
+        <div class="headerMobile">
+            <h1 class="logo">Book Fé</h1>
+            <button class="menuButton">≡</button>
+        </div>
+        <nav>
+            <ul class="navigation">
+                <li><a href="index.html">Start</a></li>
+                <li><a href="veranstaltungen.html">Veranstaltungen</a></li>
+                <li><a href="cafe.html">Café</a></li>
+                <li><a href="buecher.html">Bücher</a></li>
+                <li><a href="ueberUns.html">Über Uns</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="wrapper">
+        <main>
+            <section>
+                <div class="kontaktformular">
+                    <h1 class="siteHeader">Schreib uns!</h1>
+                    <p>Ob Reservierung, Feedback oder einfach ein nettes Hallo ― wir freuen uns auf deine Nachricht.</p>
+                    <form action="https://mi.hs-flensburg.de/echo.php" method="post">
+                        <label for="name">Dein Name:</label><br>
+                        <input type="text" id="name" name="name" required><br><br>
+
+                        <label for="email">E-Mail-Adresse:</label><br>
+                        <input type="email" id="email" name="email" required><br><br>
+
+                        <label for="betreff">Betreff:</label><br>
+                        <input type="text" id="betreff" name="betreff"><br><br>
+
+                        <label for="nachricht">Nachricht:</label><br>
+                        <textarea id="nachricht" name="nachricht" rows="6" required></textarea><br><br>
+
+                        <button type="submit">Abschicken</button>
+                    </form>
+                </div>
+            </section>
+
+            <section>
+                <div class="kontaktinfo">
+                    <h2>Öffnungszeiten & Adresse</h2>
+                    <div class="oeffnungszeiten">
+                        <ul>
+
+                            <li>
+                                <div class="tag">Dienstag ― Donnerstag</div>
+                                <div class="zeit">10:00 ― 20:00</div>
+                            </li>
+                            <li>
+                                <div class="tag">Freitag ― Sonntag</div>
+                                <div class="zeit">08:00 ― 22:00</div>
+                            </li>
+                            <li>
+                                <div class="tag">Montag</div>
+                                <div class="zeit">Ruhetag</div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="adresse">
+                        <address>
+                            <strong>Book Fé</strong><br>
+                            Am Kanalschuppen<br>
+                            24937 Flensburg<br>
+                            Hafenspitze
+                        </address>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+        <footer>
+            <ul class="navigation">
+                <li><a href="impressum.html">Impressum</a></li>
+                <li><a href="datenschutzerklaerung.html">Datenschutzerklärung</a></li>
+                <li><a href="../dokumentation/index.html">Dokumentation</a></li>
+                <li><a href="../dokumentation/kolophon.html">Kolophon</a></li>
+            </ul>
+            <p class="copyright">&copy; 2025 Book Fé</p>
+        </footer>
+    </div>
+</body>
+
+</html>
